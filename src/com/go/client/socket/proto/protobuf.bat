@@ -1,0 +1,10 @@
+protoc.exe --java_out=./message ./msgProto/club.proto
+protoc.exe --java_out=./message ./msgProto/base.proto
+protoc.exe --java_out=./message ./msgProto/errcode.proto
+protoc.exe --java_out=./message ./msgProto/friend.proto
+protoc.exe --java_out=./message ./msgProto/login.proto
+protoc.exe --java_out=./message ./msgProto/msgdef.proto
+protoc.exe --java_out=./message ./msgProto/playerinfo.proto
+protoc.exe --java_out=./message ./msgProto/queue.proto
+protoc.exe --java_out=./message ./msgProto/room.proto
+protoc.exe --java_out=./message ./msgProto/table.proto
